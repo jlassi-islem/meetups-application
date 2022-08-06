@@ -1,3 +1,4 @@
+
 function MeetupItem(props) {
     return (
         <li>
@@ -15,3 +16,4 @@ function MeetupItem(props) {
         </li>
     )
 }
+export default MeetupItem;
