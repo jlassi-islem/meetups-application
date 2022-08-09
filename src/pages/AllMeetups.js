@@ -1,3 +1,4 @@
+  import MeetupList from '.components/Lyout/meetups/MeetupList';
   const DUMMY_DATA = [
    { 
     id: 'islem',
@@ -28,12 +29,7 @@
     return ( 
     <section>
         <h1>All Meetups</h1> 
-        <ul>
-          {DUMMY_DATA.map((meetup)=> {
-            return <li key={meetup.id}>{meetup.title}</li>;
-          })}
-        
-        </ul>
+        <MeetupList meetups={DUMMY_DATA} />
     </section>
     );
   }
