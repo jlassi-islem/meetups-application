@@ -1,4 +1,4 @@
-  import MeetupList from '.components/Lyout/meetups/MeetupList';
+  import MeetupList from '.components/meetups/MeetupList';
   const DUMMY_DATA = [
    { 
     id: 'islem',
