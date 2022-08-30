@@ -2,7 +2,7 @@ import { Routes ,Route } from 'react-router-dom';
 import AllMeetupsPage from './pages/AllMeetups';
 import NewMeetupPage from './pages/NewMeetup';
 import FavoritesPage from './pages/Favorites';
-import MainNavigation from './components/lyout/MainNavigation';
+import MainNavigation from '../components/lyout/MainNavigation';
 function App() {
   return (
     <div> 
